@@ -18,7 +18,7 @@ body {
   height: 100%;
 }
 
-.fondo-default {
+body {
   background: linear-gradient(to bottom right, #5e420d, #352508);
   background-size: cover;
 }
@@ -171,6 +171,11 @@ section {
 }
 
 /* Encabezado */
+
+.encabezado div ul li:hover {
+  color: #fff2aa;
+  font-weight: 500;
+}
 
 header {
   margin-bottom: 51px;
