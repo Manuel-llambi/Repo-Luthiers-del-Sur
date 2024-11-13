@@ -8,7 +8,7 @@
   margin: 0px;
   box-sizing: border-box;
   color: #ededed;
-  /* border: red solid 3px; */
+  /* border: red solid 2px; */
 }
 
 body {
@@ -36,7 +36,7 @@ body {
   grid-template-columns: 1fr;
   grid-template-rows: auto 1fr auto;
   height: 100%;
-  width: 100vw;
+  max-width: 100vw;
   grid-template-areas:
     "header"
     "main"
@@ -51,6 +51,8 @@ body {
 
 main {
   grid-area: main;
+  width: 100%;
+  max-width: 100vw;
 }
 
 ul {
@@ -162,24 +164,22 @@ h2 {
 article {
   margin-bottom: 60px;
   margin-left: 73px;
-  margin-right: 73px;
   margin-bottom: 93px;
+  margin-right: 73px;
 }
 
 section {
   margin-bottom: 90px;
+  max-width: 100vw;
 }
 
 /* Encabezado */
 
-.encabezado div ul li:hover {
-  color: #fff2aa;
-  font-weight: 500;
-}
-
 header {
   margin-bottom: 51px;
   grid-area: header;
+  width: 100%;
+  max-width: 100vw;
 }
 
 .encabezado div ul li a {
@@ -193,6 +193,11 @@ header {
   display: inline-block;
 }
 
+.encabezado div ul li:hover {
+  font-weight: 500;
+  color: #352508;
+}
+
 li {
   text-align: center;
 }
@@ -202,6 +207,7 @@ li {
   justify-content: space-between;
   margin: 32px 73px 0px 73px;
   align-items: center;
+  max-width: 100vw;
 }
 
 /* Index */
@@ -217,7 +223,7 @@ li {
 .hola-usuario {
   margin-bottom: 120px;
   margin-top: 0px;
-  width: 100vw;
+  width: 100%;
 }
 
 h1 {
@@ -256,6 +262,11 @@ h1 {
   margin-bottom: 50px;
 }
 
+.boton-explor:hover {
+  background-color: #fff2aa;
+  color: #8f5d00;
+}
+
 .descrip {
   font-size: 20px;
   color: #ffffff;
@@ -266,6 +277,7 @@ h1 {
 }
 
 .testimonio {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -294,6 +306,7 @@ h1 span {
 
 .valores-indv {
   display: none;
+  
 }
 
 h3 {
@@ -315,6 +328,7 @@ h3 {
   flex-direction: row;
   align-items: center;
   gap: 200px;
+  width: 100%;
 }
 
 .pilares {
@@ -338,7 +352,10 @@ h3 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
+
+
 
 .pilar-info {
   display: flex;
@@ -346,6 +363,7 @@ h3 {
   align-items: center;
   justify-content: center;
   word-wrap: break-word;
+
 }
 
 .items div {
@@ -364,6 +382,7 @@ h3 {
   color: #ededed;
   text-align: center;
   margin: 0px;
+  text-align: center;
 }
 
 h4 {
@@ -391,9 +410,10 @@ footer {
   align-items: center;
   padding: 28px 73px;
   background-color: #f0e5a8;
-  width: 100%;
   margin: 0px;
   grid-area: footer;
+  width: 100%;
+  max-width: 100vw;
 }
 
 .dash {
@@ -464,6 +484,8 @@ section ul li {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 12px;
+  width: 100%;
+  max-width: 100vw;
 }
 
 .mas {
@@ -472,22 +494,26 @@ section ul li {
   margin: 0px;
 }
 
-.seccion-popu {
+.seccion-cat {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 28px;
+  max-width: 100vw;
 }
 
 .foto-producto {
   border-radius: 12px;
+  max-width: 100%;
+  height: auto;
+  
 }
 
 .card {
   display: flex;
   flex-direction: column;
   gap: 12px;
+  max-width: 100vw;
 }
 
 .resumen {
@@ -592,11 +618,13 @@ section ul li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 .seccion-quienes-uno {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 100%;
 }
 
 .seccion-quienes-dos img {
@@ -648,7 +676,7 @@ section ul li {
 .formulario {
   display: flex;
   flex-direction: column;
-  width: 400px;
+  width: 700px;
   padding: 16px;
 
   color: #ffffff;
@@ -658,6 +686,7 @@ section ul li {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: 100%;
 }
 
 .enviar {
@@ -896,6 +925,10 @@ p span {
     display: none;
   }
 
+  .seccion-popu {
+    grid-template-columns: 1fr;
+  }
+
   /* Valores mobile */
 
   @media (max-width: 393px) {
@@ -1022,7 +1055,8 @@ p span {
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 40px;
+      gap: 24px;
+      text-align: center;
     }
 
     h4 {
@@ -1051,5 +1085,7 @@ p span {
       width: 40px;
       height: 40px;
     }
+
+    
   }
 }
