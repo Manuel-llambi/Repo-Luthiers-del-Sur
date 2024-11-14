@@ -291,6 +291,22 @@ h1 span {
 
 /* Valores */
 
+.footer-uno{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding: 28px 73px;
+  background-color: #f0e5a8;
+  margin: 0px;
+  grid-area: footer;
+  width: 100%;
+  max-width: 100vw;
+
+}
+
+
+
 .guitarra-foto {
   display: flex;
   flex-direction: column;
