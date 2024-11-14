@@ -1,4 +1,4 @@
-/* Las paginas con media queries para el formato mobile son "Index" y "Quienes somos" */
+/* Las paginas con media queries para el formato mobile son "Index" y "Valores" */
 
 /* Generalidades */
 
@@ -193,9 +193,9 @@ header {
   display: inline-block;
 }
 
-.encabezado div ul li:hover {
+.encabezado div ul li a:hover {
   font-weight: 500;
-  color: #352508;
+  color: #fff2aa;
 }
 
 li {
@@ -290,6 +290,12 @@ h1 span {
 }
 
 /* Valores */
+
+#seleccionado{
+  color: #fff2aa;
+  font-weight: 500;
+}
+
 
 .guitarra-foto {
   display: flex;
