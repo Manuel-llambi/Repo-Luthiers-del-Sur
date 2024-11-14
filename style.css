@@ -291,22 +291,6 @@ h1 span {
 
 /* Valores */
 
-.footer-uno{
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  align-items: center;
-  padding: 28px 73px;
-  background-color: #f0e5a8;
-  margin: 0px;
-  grid-area: footer;
-  width: 100%;
-  max-width: 100vw;
-
-}
-
-
-
 .guitarra-foto {
   display: flex;
   flex-direction: column;
@@ -322,7 +306,6 @@ h1 span {
 
 .valores-indv {
   display: none;
-  
 }
 
 h3 {
@@ -371,15 +354,12 @@ h3 {
   width: 100%;
 }
 
-
-
 .pilar-info {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   word-wrap: break-word;
-
 }
 
 .items div {
@@ -522,7 +502,6 @@ section ul li {
   border-radius: 12px;
   max-width: 100%;
   height: auto;
-  
 }
 
 .card {
@@ -1101,7 +1080,5 @@ p span {
       width: 40px;
       height: 40px;
     }
-
-    
   }
 }
