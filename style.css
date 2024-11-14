@@ -692,7 +692,7 @@ section ul li {
 .formulario {
   display: flex;
   flex-direction: column;
-  width: 700px;
+  width: 500px;
   padding: 16px;
 
   color: #ffffff;
