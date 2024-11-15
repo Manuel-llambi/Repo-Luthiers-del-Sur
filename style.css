@@ -359,6 +359,14 @@ h3 {
   box-shadow: 9px -9px #fff2aa;
 }
 
+.tres-pilares{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  margin: 0px;
+  
+}
+
 .seccion-dos {
   display: flex;
   flex-direction: column;
@@ -366,6 +374,7 @@ h3 {
   align-items: center;
   width: 100%;
   margin: 0px;
+  padding: 0px;
 }
 
 .pilar-info {
@@ -951,6 +960,14 @@ p span {
       color: #8f5d00;
     }
 
+  .primer-contenido{
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0px;
+    gap: 32px;
+    
+  }
+
     .subs-footer1 p {
       color: #5e420d;
       margin: 0px;
@@ -960,6 +977,10 @@ p span {
 
     .subs-footer {
       display: none;
+    }
+
+    section{
+      margin-bottom: 50px;
     }
 
     .grid-contenedor {
@@ -1023,6 +1044,10 @@ p span {
       display: none;
     }
 
+    .tres-pilares{
+      gap: 32px;
+    }
+
     .carrito-compra {
       width: 32px;
       height: 32px;
@@ -1033,8 +1058,11 @@ p span {
     }
     .seccion-valor {
       display: flex;
-      flex-direction: column-reverse;
-      gap: 24px;
+      flex-direction: column;
+    }
+
+    .raya{
+      margin-bottom: 32px;
     }
 
     .guitar-madera {
@@ -1069,7 +1097,7 @@ p span {
     }
 
     h4 {
-      font-size: 16px;
+      font-size: 20px;
       font-weight: 600;
     }
 
