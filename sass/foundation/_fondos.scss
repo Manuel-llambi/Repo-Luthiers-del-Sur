@@ -1,0 +1,9 @@
+$bg-index: url("../../Img/Fondo-index.png");
+$bg-color: linear-gradient(to bottom right, #5e420d, #352508);
+$bg-contacto: url("../../Img/fondo-formulario.png");
+
+.fondo-formulario {
+  background-image: $bg-contacto;
+  background-size: cover;
+  height: 100vh;
+}

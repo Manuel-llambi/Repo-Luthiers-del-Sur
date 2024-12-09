@@ -1,0 +1,41 @@
+body {
+  font-family: $font-family-base;
+  background: linear-gradient(to bottom right, #5e420d, #352508);
+  background-size: cover;
+  background-attachment: fixed;
+  color: $body-color;
+  font-size: $font-size-small;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  // border: 2px red solid;
+}
+
+.navbar-mobile {
+  display: none;
+}
+
+span {
+  font-weight: 600;
+  color: $primary-color;
+}
+
+// Hover
+
+.boton-carrito:hover {
+  background-color: $primary-color;
+  color: $secondary-color;
+}
+
+.boton-explor:hover {
+  background-color: $primary-color;
+  color: $secondary-color;
+}
+
+.encabezado div ul li a:hover {
+  font-weight: $font-weight-3;
+  color: $primary-color;
+}

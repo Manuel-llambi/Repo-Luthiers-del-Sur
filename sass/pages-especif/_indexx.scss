@@ -1,0 +1,47 @@
+body {
+  &.fondo {
+    background-image: $bg-index;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+.hola-usuario {
+  @include flexbox-column(column, flex-start, center, 0px);
+  width: 100%;
+}
+
+section.testimonio {
+  @include flexbox-column(column, flex-end, center, 12px);
+  width: 100%;
+}
+
+p.frase {
+  font-size: $font-size-medium;
+  font-weight: 300;
+  color: $contrast-color-1;
+  text-align: right;
+}
+
+main {
+  article {
+    section.testimonio {
+      p.artista {
+        font-size: $font-size-small;
+        font-weight: 300;
+        color: #b1b1b1;
+        text-align: right;
+      }
+    }
+  }
+}
+
+p.descrip {
+  font-size: $font-size-small;
+  width: 680px;
+  color: $contrast-color-1;
+  margin-bottom: 50px;
+  font-weight: 300;
+}

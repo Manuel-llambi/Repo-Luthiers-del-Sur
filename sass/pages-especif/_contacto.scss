@@ -1,0 +1,44 @@
+section.seccion-formulario {
+  @include flexbox-row(row, none, space-between, 0px);
+  width: 100%;
+}
+
+.formulario {
+  @include flexbox-column(column, none, space-between, 0px);
+  color: $contrast-color-1;
+  width: 500px;
+  padding: 16px;
+}
+
+.formulario {
+  .item {
+    @include flexbox-column(column, flex-start, space-between, 4px);
+    margin-bottom: 20px;
+  }
+}
+
+.campo {
+  border-radius: 4px;
+  height: 40px;
+  border: 2px solid $secondary-color;
+  color: $secondary-color;
+  padding: 8px;
+  width: 100%;
+}
+
+// Mensaje
+
+p.mensaje-despedida {
+  font-size: 80px;
+  font-weight: 400px;
+  color: $contrast-color-1;
+  margin: 0px;
+  text-align: right;
+}
+
+#mensaje {
+  height: 150px;
+  border-radius: 8px;
+  border: 2px solid $secondary-color;
+  width: 100%;
+}

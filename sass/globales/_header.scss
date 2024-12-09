@@ -1,0 +1,38 @@
+// header
+
+header {
+  margin-bottom: 51px;
+  width: 100%;
+  max-width: 100vw;
+}
+
+nav.encabezado {
+  @include flexbox-row(row, center, space-between, 1px);
+  margin: 32px 73px 0px 73px;
+}
+
+nav.encabezado {
+  .navegacion-logo {
+    @include flexbox-row(row, center, space-between, 42px);
+  }
+}
+
+.action {
+  @include flexbox-row(row, center, space-between, 16px);
+}
+
+header {
+  nav.encabezado {
+    .navegacion-logo {
+      ul {
+        @include flexbox-row(row, center, space-between, 26px);
+      }
+    }
+  }
+}
+
+.action {
+  .call-to-action {
+    @include flexbox-row(row, center, space-between, 16px);
+  }
+}

@@ -1,0 +1,418 @@
+// Generales
+
+@media (max-width: 393px) {
+  .navbar-mobile {
+    display: none;
+  }
+
+  .valores-indv {
+    display: none;
+  }
+
+  .subs-footer1 {
+    display: none;
+  }
+
+  .hamburguesa {
+    display: none;
+  }
+
+  .titulo-principal {
+    h2 {
+      font-size: $font-size-semismall;
+    }
+  }
+  .seccion-dos {
+    h3 {
+      font-size: $font-size-semismall;
+    }
+  }
+}
+
+//Footer y header
+
+@media (max-width: 393px) {
+  header {
+    margin-bottom: 81px;
+  }
+
+  header {
+    nav.encabezado {
+      margin: 28px 20px 0px 20px;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  header {
+    nav.encabezado {
+      .navegacion-logo {
+        display: none;
+      }
+    }
+  }
+
+  .encabezado {
+    .navbar-mobile {
+      @include flexbox-row(row, center, space-between, 0px);
+      justify-content: space-between;
+      align-items: center;
+      width: 100vh;
+    }
+  }
+
+  .hamburguesa {
+    @include flexbox-column(column, center, center, 0px);
+    width: 32px;
+    height: 32px;
+  }
+
+  #logo {
+    width: 55px;
+    height: 55px;
+  }
+
+  header {
+    nav.encabezado {
+      .action {
+        display: none;
+      }
+    }
+  }
+
+  .carrito-compra {
+    width: 32px;
+    height: 32px;
+  }
+
+  section.hola-usuario {
+    h1 {
+      font-size: 36px;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+  }
+
+  .fondo {
+    background-image: url(./Img/fondo-mobile.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+  }
+
+  main {
+    article {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  }
+
+  .grid-contenedor {
+    footer {
+      @include flexbox-row(row, center, space-between, 0px);
+      padding: 22px 20px;
+      background-color: $primary-color;
+      width: 100%;
+      margin: 0px;
+    }
+  }
+
+  div#redes {
+    p.perfiles {
+      font-size: 12px;
+      font-weight: 500;
+      text-align: left;
+    }
+  }
+
+  #sociales li a {
+    width: 32px;
+    height: 32px;
+    display: flex;
+  }
+
+  #redes {
+    ul#sociales {
+      @include flexbox-row(row, center, center, 32px);
+    }
+  }
+
+  div#redes {
+    @include flexbox-column(column, flex-start, center, 8px);
+    max-width: 100%;
+  }
+
+  div.subs-footer {
+    @include flexbox-column(column, flex-end, center, 16px);
+    color: $secondary-color;
+  }
+
+  .boton-explor {
+    font-size: 16px;
+    font-weight: $font-weight-2;
+
+    padding: 16px;
+    margin: 0px;
+    border-radius: 12px;
+    border: 3px solid #f0e5a8;
+
+    .testimonio {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0px;
+    }
+
+    .subs-footer1 {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      align-items: flex-end;
+      color: #8f5d00;
+    }
+
+    .subs-footer {
+      display: none;
+    }
+
+    .seccion-popu {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
+// Index
+
+@media (max-width: 393px) {
+  .detalles {
+    color: $secondary-color;
+    font-weight: 500;
+    font-size: 12px;
+  }
+  section.hola-usuario {
+    @include flexbox-column(column, center, center, 0px);
+    width: 100%;
+    margin-bottom: 90px;
+  }
+  section.hola-usuario {
+    p.descrip {
+      text-align: center;
+      width: 100%;
+      font-size: 16px;
+      margin-bottom: 42px;
+    }
+  }
+  section.testimonio {
+    p.frase {
+      font-size: 20px;
+      font-style: italic;
+      font-weight: 300;
+      color: $contrast-color-1;
+      margin: 0px;
+      text-align: center;
+    }
+  }
+
+  article {
+    section.testimonio {
+      align-items: center;
+    }
+  }
+}
+
+// Quienes somos
+
+@media (max-width: 393px) {
+  .parrafo-foto {
+    p.epigrafe {
+      text-align: center;
+      font-size: $font-size-xs;
+    }
+  }
+
+  .seccion-quienes-dos {
+    .posci-seccion-dos {
+      @include flexbox-column(column, center, center, 32px);
+    }
+  }
+
+  .seccion-quienes-dos {
+    .posci-seccion-dos img {
+      width: 100%;
+    }
+  }
+}
+
+// Valores
+
+@media (max-width: 393px) {
+  .seccion-valor {
+    .primer-contenido {
+      @include flexbox-column(column, center, center, 12px);
+      flex-direction: column-reverse;
+    }
+  }
+
+  .seccion-valor {
+    .guitarra-foto {
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .seccion-valor {
+    .guitarra-foto {
+      p {
+        text-align: center;
+        font-size: $font-size-xs;
+      }
+    }
+  }
+
+  .primer-contenido {
+    .contenido-p {
+      text-align: c;
+    }
+  }
+
+  section.seccion-dos {
+    .items {
+      @include flexbox-column(column, center, center, 42px);
+      width: 100%;
+    }
+  }
+
+  section.seccion-dos {
+    .items {
+      div {
+        width: 100%;
+      }
+    }
+  }
+
+  .seccion-valor {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .guitar-madera {
+    box-shadow: none;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .contenido-p {
+    color: #ededed;
+    font-size: 16px;
+  }
+
+  .items {
+    display: none;
+  }
+
+  .pilares-mobile {
+    width: 207px;
+    height: 207px;
+    order: 2;
+  }
+  .valores-indv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    text-align: center;
+  }
+
+  .valores-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+  }
+}
+
+// Productos
+
+@media (max-width: 393px) {
+  .categorias {
+    .card {
+      width: 100%;
+    }
+  }
+
+  .card {
+    .foto-producto {
+      width: 100%;
+    }
+  }
+
+  .pagina-producto {
+    div {
+      h2 {
+        font-size: $font-size-semismall;
+      }
+    }
+  }
+
+  .categorias {
+    h3 {
+      font-size: $font-size-small;
+      margin: 0px;
+    }
+  }
+
+  .ver-mas {
+    p.mas {
+      font-size: 18px;
+    }
+  }
+
+  .pagina-producto {
+    .seccion-cat {
+      width: 100%;
+    }
+  }
+}
+
+// Contacto
+
+@media (max-width: 393px) {
+  article {
+    section.seccion-formulario {
+      @include flexbox-column(column, none, space-between, 0px);
+      flex-direction: column-reverse;
+    }
+  }
+
+  .seccion-formulario {
+    form.formulario {
+      width: 100%;
+      padding: 0px;
+    }
+  }
+
+  section {
+    p.mensaje-despedida {
+      font-size: 48px;
+      text-align: left;
+    }
+  }
+
+  .fondo-formulario {
+    footer {
+      @include flexbox-row(row, center, space-between, 0px);
+      padding: 22px 20px;
+    }
+  }
+
+  body.fondo-formulario{
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+

@@ -1,0 +1,4 @@
+article {
+  margin: 0px 73px 93px 73px;
+  @include flexbox-column(column, center, center, 0px);
+}

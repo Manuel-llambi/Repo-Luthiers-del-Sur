@@ -1,0 +1,68 @@
+section.pagina-producto {
+  @include flexbox-column(column, flex-start, center, 0px);
+  width: 100%;
+}
+
+.pagina-producto {
+  div {
+    text-align: start;
+  }
+}
+
+section {
+  .categorias {
+    @include flexbox-row(row, center, space-between, 12px);
+    width: 100%;
+    max-width: 100vw;
+    margin-bottom: 12px;
+  }
+}
+
+section {
+  .ver-mas {
+    @include flexbox-row(row, center, center, 12px);
+  }
+}
+
+p.mas {
+  font-size: $font-size-small;
+}
+
+.seccion-cat {
+  @include flexbox-row(row, none, space-between, 28px);
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.card {
+  @include flexbox-column(column, center, space-between, 12px);
+}
+
+.foto-producto {
+  border-radius: 12px;
+  width: 394px;
+  height: 600px;
+  object-fit: cover;
+  max-width: 100vw;
+  background-color: $contrast-color-1;
+}
+
+div.resumen {
+  @include flexbox-column(column, center, space-between, 12px);
+  width: 100%;
+}
+
+.resumen {
+  .info {
+    @include flexbox-column(column, center, space-between, 0px);
+    width: fit-content;
+  }
+}
+
+.info {
+  .nombre {
+    font-size: $font-size-semismall;
+    font-weight: $font-weight-1;
+    color: $primary-color;
+  }
+}

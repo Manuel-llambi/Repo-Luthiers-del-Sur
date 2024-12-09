@@ -1,0 +1,76 @@
+//Botones del header
+
+.button-header {
+  font-size: $font-size-small;
+  padding: 16px 20px 16px 20px;
+  border: solid 3px $primary-color;
+  border-radius: 12px;
+  font-weight: $font-weight-2;
+}
+
+.boton-nav1 {
+  @extend .button-header;
+  background-color: transparent;
+  color: $primary-color;
+}
+
+.boton-nav2 {
+  @extend .button-header;
+  background-color: $primary-color;
+  color: $secondary-color;
+  border: solid 3px $primary-color;
+}
+
+// Boton de inicio
+
+.boton-explor {
+  font-size: $font-size-small;
+  font-weight: $font-weight-2;
+  color: $primary-color;
+  padding: 20px;
+  margin-bottom: 50px;
+  border: 3px solid $primary-color;
+  background-color: transparent;
+  border-radius: 12px;
+}
+
+// Botones de producto
+
+div.botones-productos {
+  @include flexbox-column(column, center, center, 8px);
+  width: 100%;
+}
+
+.boton-carrito {
+  color: $primary-color;
+  border: 4px $primary-color solid;
+  padding: 10px;
+  text-decoration: none;
+  font-size: $font-size-small;
+  text-align: center;
+  width: 100%;
+  border-radius: 8px;
+  font-weight: $font-weight-1;
+}
+
+.boton-detalles {
+  color: $contrast-color-1;
+  padding: 10px;
+  text-decoration: none;
+  font-size: $font-size-small;
+  text-align: center;
+  width: 100%;
+  border-radius: 8px;
+}
+
+// Botone de formulario
+
+input.enviar {
+  background-color: $secondary-color;
+  color: $primary-color;
+  font-size: $font-size-small;
+  padding: 10px;
+  border-style: none;
+  border-radius: 12px;
+  font-weight: $font-weight-1;
+}

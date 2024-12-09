@@ -1,0 +1,14 @@
+main {
+  width: 100%;
+  max-width: 100vw;
+}
+
+article {
+  @include flexbox-column(column, center, none, 0px);
+  margin: 0px 73px 60px 73px;
+}
+
+section {
+  margin-bottom: 90px;
+  max-width: 100vw;
+}
