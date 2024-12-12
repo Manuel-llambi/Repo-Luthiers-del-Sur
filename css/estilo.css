@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 .fondo-formulario {
-  background-image: url("/Repo-Luthiers-del-Sur/Img/fondo-formulario.png");
+  background-image: url("../../Img/fondo-formulario.png");
   background-size: cover;
   height: 100vh;
 }
@@ -337,7 +337,7 @@ article {
 }
 
 body.fondo {
-  background-image: url("/Repo-Luthiers-del-Sur/Img/fondo-index.png");
+  background-image: url("../../Img/Fondo-index.png");
   height: 100vh;
   width: 100vw;
   background-repeat: no-repeat;
