@@ -4,11 +4,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Aprende sobre nuestra historia y nacimientos como empresa, conoce al reconocido fundador de la marca y como consiguio establecer su idea empresarial desde su devocion hacia los instrumentos de calidad">
+  <meta name="description"
+    content="Aprende sobre nuestra historia y nacimientos como empresa, conoce al reconocido fundador de la marca y como consiguio establecer su idea empresarial desde su devocion hacia los instrumentos de calidad">
   <meta name="keywords" content="fundador, historia, nacimiento, origen, intrumentos, empresa, marca">
   <link rel="stylesheet" href="../css/estilo.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
     rel="stylesheet" />
@@ -53,7 +55,7 @@
           <a href="../index.html"><img src="../Img/Frame 686.svg" alt="logo" id="logo" /></a>
           <img src="../Img/shopping_cart_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" alt="carrito de compra"
             class="carrito-compra" />
-        </div> 
+        </div>
       </nav>
     </header>
     <main>
@@ -88,10 +90,11 @@
           </div>
           <div class="posci-seccion-dos">
             <div>
-              <img src="../Img/Fundador.jpg" alt="Fundador de luthiers del sur">
+              <img src="../Img/Fundador.jpg" alt="Fundador de luthiers del sur" data-aos="fade-right" data-aos-duration="1500" data-aos-easing="ease">
               <p class="epigrafe">Torres en la actualidad</p>
             </div>
-            <p class="contenido-p">El fundador de Luthiers del Sur es un apasionado artesano y experto en luthería,
+            <p class="contenido-p" data-aos="fade-left" data-aos-duration="1500" data-aos-easing="ease">
+              El fundador de Luthiers del Sur es un apasionado artesano y experto en luthería,
               dedicado a la construcción de guitarras artesanales de alta calidad. Proveniente del sur, ha perfeccionado
               sus habilidades en el tallado, ensamblado y acabado de maderas nobles, creando instrumentos únicos que
               reflejan tanto su amor por la música como su compromiso con la tradición artesanal. <br><br>Su visión es
@@ -126,6 +129,10 @@
       </div>
     </footer>
   </div>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

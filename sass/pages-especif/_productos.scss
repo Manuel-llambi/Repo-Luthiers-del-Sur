@@ -36,6 +36,7 @@ p.mas {
 
 .card {
   @include flexbox-column(column, center, space-between, 12px);
+  transition: transform 0.5s ease;
 }
 
 .foto-producto {
@@ -65,4 +66,8 @@ div.resumen {
     font-weight: $font-weight-1;
     color: $primary-color;
   }
+}
+
+.card:hover{
+  transform: scale(1.03);
 }

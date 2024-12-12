@@ -526,6 +526,7 @@ p.mas {
   align-items: center;
   justify-content: space-between;
   gap: 12px;
+  transition: transform 0.5s ease;
 }
 
 .foto-producto {
@@ -559,6 +560,10 @@ div.resumen {
   font-size: 24px;
   font-weight: 500;
   color: #fff2aa;
+}
+
+.card:hover {
+  transform: scale(1.03);
 }
 
 article .seccion-quienes-uno {
@@ -894,15 +899,27 @@ h4 {
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+}
+
 ul {
   list-style: none;
 }
 
-a {
+.encabezado div ul li a {
   text-decoration: none;
   color: #ffffff;
   font-size: 24px;
   font-weight: 500;
+  display: inline-block;
+  transition: transform 0.5s ease;
+}
+
+.encabezado div ul li a:hover {
+  transform: scale(1.1);
+  font-weight: 600;
+  color: #fff2aa;
 }
 
 .button-header, .boton-nav2, .boton-nav1 {
@@ -916,12 +933,14 @@ a {
 .boton-nav1 {
   background-color: transparent;
   color: #fff2aa;
+  transition: transform 0.5s ease;
 }
 
 .boton-nav2 {
   background-color: #fff2aa;
   color: #8f5d00;
   border: solid 3px #fff2aa;
+  transition: transform 0.5s ease;
 }
 
 .boton-explor {
@@ -933,6 +952,7 @@ a {
   border: 3px solid #fff2aa;
   background-color: transparent;
   border-radius: 12px;
+  transition: transform 0.5s ease;
 }
 
 div.botones-productos {
@@ -954,6 +974,7 @@ div.botones-productos {
   width: 100%;
   border-radius: 8px;
   font-weight: 500;
+  transition: background-color 0.5s ease;
 }
 
 .boton-detalles {
@@ -974,6 +995,25 @@ input.enviar {
   border-style: none;
   border-radius: 12px;
   font-weight: 500;
+}
+
+.boton-explor:hover {
+  transform: scale(1.1);
+  background-color: #fff2aa;
+  color: #8f5d00;
+}
+
+.boton-nav1:hover {
+  transform: scale(1.1);
+}
+
+.boton-nav2:hover {
+  transform: scale(1.1);
+}
+
+.boton-carrito:hover {
+  background-color: #fff2aa;
+  color: #8f5d00;
 }
 
 .action .carrito-compra {

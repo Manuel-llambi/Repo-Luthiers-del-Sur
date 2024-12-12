@@ -1,10 +1,24 @@
+a {
+  text-decoration: $text-decorationn;
+}
+
 ul {
   list-style: $list-style;
 }
 
-a {
+.encabezado div ul li a {
   text-decoration: $text-decorationn;
   color: $contrast-color-1;
   font-size: $font-size-semismall;
   font-weight: $font-weight-1;
+  display: inline-block;
+  transition: transform 0.5s ease;
+}
+
+// Hover
+
+.encabezado div ul li a:hover {
+  transform: scale(1.1);
+  font-weight: $font-weight-2;
+  color: $primary-color;
 }

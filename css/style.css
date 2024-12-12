@@ -193,11 +193,6 @@ header {
   display: inline-block;
 }
 
-.encabezado div ul li a:hover {
-  font-weight: 500;
-  color: #fff2aa;
-}
-
 li {
   text-align: center;
 }
@@ -262,11 +257,6 @@ h1 {
   border: 3px solid #f0e5a8;
   text-decoration: none;
   margin-bottom: 50px;
-}
-
-.boton-explor:hover {
-  background-color: #fff2aa;
-  color: #8f5d00;
 }
 
 .descrip {
@@ -480,7 +470,7 @@ footer {
 
 /* Productos */
 
-.pagina-producto{
+.pagina-producto {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -535,7 +525,6 @@ section ul li {
   object-fit: cover;
   max-width: 100%;
   background-color: #ffffff;
-  
 }
 
 .card {
@@ -581,13 +570,6 @@ section ul li {
   border-radius: 8px;
   font-weight: 500;
 }
-
-.boton-carrito:hover{
-  background-color: #fff2aa;
-  color: #5e420d;
-}
-
-
 
 .boton-detalles {
   color: #ffffff;
@@ -848,7 +830,6 @@ p span {
     margin-left: 20px;
     margin-right: 20px;
   }
-
 
   .perfiles {
     font-size: 12px;

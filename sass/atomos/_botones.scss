@@ -12,6 +12,7 @@
   @extend .button-header;
   background-color: transparent;
   color: $primary-color;
+  transition: transform 0.5s ease;
 }
 
 .boton-nav2 {
@@ -19,6 +20,7 @@
   background-color: $primary-color;
   color: $secondary-color;
   border: solid 3px $primary-color;
+  transition: transform 0.5s ease;
 }
 
 // Boton de inicio
@@ -32,6 +34,7 @@
   border: 3px solid $primary-color;
   background-color: transparent;
   border-radius: 12px;
+  transition: transform 0.5s ease;
 }
 
 // Botones de producto
@@ -51,6 +54,7 @@ div.botones-productos {
   width: 100%;
   border-radius: 8px;
   font-weight: $font-weight-1;
+  transition: background-color 0.5s ease;
 }
 
 .boton-detalles {
@@ -73,4 +77,25 @@ input.enviar {
   border-style: none;
   border-radius: 12px;
   font-weight: $font-weight-1;
+}
+
+//Hover
+
+.boton-explor:hover {
+  transform: scale(1.1);
+  background-color: $primary-color;
+  color: $secondary-color;
+}
+
+.boton-nav1:hover{
+  transform: scale(1.1);
+}
+
+.boton-nav2:hover{
+  transform: scale(1.1);
+}
+
+.boton-carrito:hover{
+  background-color: $primary-color;
+  color: $secondary-color;
 }
