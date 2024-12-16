@@ -21,7 +21,7 @@ body {
 }
 
 .fondo {
-  background-image: url(../Img/Fondo-index.png);
+  background-image: url(../img/fondo-index.png);
   height: 100vh;
   width: 100vw;
   background-repeat: no-repeat;
@@ -41,7 +41,7 @@ body {
 }
 
 .fondo-formulario {
-  background-image: url(./Img/fondo-formulario.png);
+  background-image: url(./img/fondo-formulario.png);
   background-size: cover;
   height: 100vh;
 }
@@ -819,7 +819,7 @@ p span {
   }
 
   .fondo {
-    background-image: url(./Img/fondo-mobile.png);
+    background-image: url(./img/fondo-mobile.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
