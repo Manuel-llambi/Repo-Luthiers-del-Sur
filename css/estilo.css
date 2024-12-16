@@ -337,7 +337,7 @@ article {
 }
 
 body.fondo {
-  background-image: url("../../img/Fondo-index.png");
+  background-image: url("../../img/fondo-index.png");
   height: 100vh;
   width: 100vw;
   background-repeat: no-repeat;
