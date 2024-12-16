@@ -1,9 +1,9 @@
 
 // Nose porque no me carga las imagenes de fondo cuando abro desde Pages en github
 
-$bg-index: url("../../img/fondo-index.png");
+$bg-index: url("../fondo-index.png");
 $bg-color: linear-gradient(to bottom right, #5e420d, #352508);
-$bg-contacto: url("../../img/fondo-formulario.png");
+$bg-contacto: url("../fondo-formulario.png");
 
 .fondo-formulario {
   background-image: $bg-contacto;
