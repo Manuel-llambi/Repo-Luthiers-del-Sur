@@ -21,9 +21,17 @@ section.seccion-formulario {
   border-radius: 4px;
   height: 40px;
   border: 2px solid $secondary-color;
-  color: $secondary-color;
+  color: $contrast-color-2;
+  font-weight: $font-weight-1;
   padding: 8px;
   width: 100%;
+}
+
+·radio{
+  height: 40px;
+  width: 40px;
+  border: 2px solid $secondary-color;
+  background-color: aqua;
 }
 
 // Mensaje

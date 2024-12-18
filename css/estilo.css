@@ -1,7 +1,7 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
-
 .fondo-formulario {
-  background-image: url(../img/fondo-formulario.png);
+  background-image: url("../img/fondo-formulario.png");
   background-size: cover;
   height: 100vh;
 }
@@ -691,9 +691,17 @@ section.seccion-formulario {
   border-radius: 4px;
   height: 40px;
   border: 2px solid #8f5d00;
-  color: #8f5d00;
+  color: #000000;
+  font-weight: 500;
   padding: 8px;
   width: 100%;
+}
+
+·radio {
+  height: 40px;
+  width: 40px;
+  border: 2px solid #8f5d00;
+  background-color: aqua;
 }
 
 p.mensaje-despedida {
@@ -923,9 +931,7 @@ ul {
   color: #fff2aa;
 }
 
-.button-header,
-.boton-nav2,
-.boton-nav1 {
+.button-header, .boton-nav2, .boton-nav1 {
   font-size: 20px;
   padding: 16px 20px 16px 20px;
   border: solid 3px #fff2aa;
@@ -991,19 +997,20 @@ div.botones-productos {
 }
 
 input.enviar {
-  background-color: #8f5d00;
-  color: #fff2aa;
+  background-color: #fff2aa;
+  color: #8f5d00;
   font-size: 20px;
-  padding: 10px;
+  padding: 12px;
   border-style: none;
-  border-radius: 12px;
-  font-weight: 500;
+  border-radius: 8px;
+  font-weight: 600;
 }
 
 .boton-explor:hover {
   transform: scale(1.1);
   background-color: #fff2aa;
   color: #8f5d00;
+  cursor: pointer;
 }
 
 .boton-nav1:hover {

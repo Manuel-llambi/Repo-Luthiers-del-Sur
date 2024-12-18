@@ -70,13 +70,13 @@ div.botones-productos {
 // Botone de formulario
 
 input.enviar {
-  background-color: $secondary-color;
-  color: $primary-color;
+  background-color: $primary-color;
+  color: $secondary-color;
   font-size: $font-size-small;
-  padding: 10px;
+  padding: 12px;
   border-style: none;
-  border-radius: 12px;
-  font-weight: $font-weight-1;
+  border-radius: 8px;
+  font-weight: $font-weight-2;
 }
 
 //Hover
@@ -85,6 +85,7 @@ input.enviar {
   transform: scale(1.1);
   background-color: $primary-color;
   color: $secondary-color;
+  cursor: pointer;
 }
 
 .boton-nav1:hover{
@@ -99,3 +100,4 @@ input.enviar {
   background-color: $primary-color;
   color: $secondary-color;
 }
+
