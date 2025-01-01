@@ -27,16 +27,9 @@ section.seccion-formulario {
   width: 100%;
 }
 
-·radio{
-  height: 40px;
-  width: 40px;
-  border: 2px solid $secondary-color;
-  background-color: aqua;
-}
-
 // Mensaje
 
-p.mensaje-despedida {
+h1.mensaje-despedida {
   font-size: 80px;
   font-weight: 400px;
   color: $contrast-color-1;
